@@ -14,7 +14,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class App
+public class SeleniumTest
 {
     public static void main( String[] args )
     {
@@ -53,5 +53,7 @@ public class App
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        driver.close();
     }
 }
